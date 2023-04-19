@@ -599,7 +599,7 @@ script = ExtResource( 3 )
 [node name="Enemy_Container" type="Node2D" parent="."]
 
 [node name="King" parent="Enemy_Container" instance=ExtResource( 11 )]
-position = Vector2( 2799, 993 )
+position = Vector2( 2771, 1009 )
 collision_layer = 0
 collision_mask = 0
 
