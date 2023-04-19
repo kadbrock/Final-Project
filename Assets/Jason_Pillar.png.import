@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/edit_1.png-9cf70c06765df915af2fc07dc91c73a0.stex"
+path="res://.import/Jason_Pillar.png-474b2f9860596dda6682b5f28654fe95.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/edit_1.png"
-dest_files=[ "res://.import/edit_1.png-9cf70c06765df915af2fc07dc91c73a0.stex" ]
+source_file="res://Assets/Jason_Pillar.png"
+dest_files=[ "res://.import/Jason_Pillar.png-474b2f9860596dda6682b5f28654fe95.stex" ]
 
 [params]
 
