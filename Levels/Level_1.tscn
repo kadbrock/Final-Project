@@ -749,41 +749,43 @@ tile_data = PoolIntArray( 65526, 0, 0, 65535, 0, 0, 327670, 0, 0, 327679, 0, 0, 
 position = Vector2( 220, 818 )
 scale = Vector2( 3, 3 )
 frames = SubResource( 14 )
-frame = 3
+frame = 1
 playing = true
 
 [node name="Torch2" type="AnimatedSprite" parent="Torch"]
 position = Vector2( 343, 2.66666 )
 frames = SubResource( 14 )
-frame = 1
+frame = 3
 playing = true
 
 [node name="Torch3" type="AnimatedSprite" parent="Torch"]
 position = Vector2( 171.333, 2.66669 )
 frames = SubResource( 14 )
-frame = 3
+frame = 1
 playing = true
 
 [node name="Torch4" type="AnimatedSprite" parent="Torch"]
 position = Vector2( 511.667, 4 )
 frames = SubResource( 14 )
-frame = 1
+frame = 3
 playing = true
 
 [node name="Torch5" type="AnimatedSprite" parent="Torch"]
 position = Vector2( 854.667, 6.66666 )
 frames = SubResource( 14 )
+frame = 2
 playing = true
 
 [node name="Torch6" type="AnimatedSprite" parent="Torch"]
 position = Vector2( 683, 6.66666 )
 frames = SubResource( 14 )
-frame = 1
+frame = 3
 playing = true
 
 [node name="Torch8" type="AnimatedSprite" parent="Torch"]
 position = Vector2( 1025.67, 1.33331 )
 frames = SubResource( 14 )
+frame = 2
 playing = true
 
 [node name="Flag" type="TileMap" parent="."]
