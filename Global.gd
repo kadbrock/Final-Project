@@ -1,6 +1,6 @@
 extends Node
 
-
+var menu = null
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
@@ -56,6 +56,14 @@ func execute_fade_out(_target):
 			
 
 
-func _unhandled_input(event):
-	if event.is_action_pressed("menu"):
-		get_tree().quit()
+func _unhandled_input(_event):
+	if Input.is_action_just_pressed("menu"):
+		if menu == null:
+			menu = get_node_or_null("/root/Game/UI/Menu")
+		if menu != null:
+			if not menu.visible:
+				get_tree().paused = true
+				menu.show()
+			else:
+				get_tree().paused = false
+				menu.hide()
