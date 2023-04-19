@@ -1,7 +1,7 @@
 extends Node
 
 onready var SM = get_parent()
-onready var enemy = get_node("../..")
+onready var enemy = get_node("/root/Game/Enemy_Container/King")
 
 func _ready():
 	yield(enemy, "ready")
