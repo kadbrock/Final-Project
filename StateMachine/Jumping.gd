@@ -23,4 +23,5 @@ func physics_process(_delta):
 		player.velocity += player.jump_power
 		player.move_and_slide(player.velocity, Vector2.UP)
 		SM.set_state("Falling")
+		
 
