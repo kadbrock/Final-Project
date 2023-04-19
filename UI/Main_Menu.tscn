@@ -323,13 +323,13 @@ scale = Vector2( 8, 8 )
 tile_set = SubResource( 11 )
 cell_size = Vector2( 16, 16 )
 format = 1
-tile_data = PoolIntArray( 0, 9, 0, 4, 8, 0, 6, 10, 0, 12, 2, 0, 65536, 0, 0, 65546, 0, 0, 262146, 1, 0, 327680, 3, 0, 327681, 4, 0, 327684, 4, 0, 327687, 5, 0, 327688, 5, 0, 327690, 11, 0, 327691, 5, 0, 327694, 6, 0 )
+tile_data = PoolIntArray( 0, 9, 0, 4, 8, 0, 6, 10, 0, 12, 2, 0, 65536, 0, 0, 65546, 0, 0, 327680, 3, 0, 327681, 4, 0, 327684, 4, 0, 327687, 5, 0, 327688, 5, 0, 327691, 4, 0, 327694, 6, 0 )
 
 [node name="Light" type="AnimatedSprite" parent="."]
 position = Vector2( 959.75, 102 )
 scale = Vector2( 3.5, 3.3 )
 frames = SubResource( 17 )
-frame = 1
+frame = 2
 playing = true
 
 [node name="Label" type="Label" parent="."]
