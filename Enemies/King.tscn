@@ -287,9 +287,8 @@ position = Vector2( 0, -60 )
 scale = Vector2( 2.8, 2.8 )
 frames = SubResource( 106 )
 animation = "Idle"
-frame = 7
+frame = 1
 playing = true
-flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 3, -31 )

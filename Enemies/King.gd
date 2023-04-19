@@ -4,12 +4,11 @@ onready var SM = $StateMachine
 
 export var walking = 500
 export var running = 1000
-export var path = [Vector2(4100,1120), Vector2(5250,1120)]
+export var path = [Vector2(0,0), Vector2(1000,0)]
 var velocity = Vector2.ZERO
 var direction = 1
 
 func _ready():
-	position = path[0]
 	velocity.x = walking
 	SM.set_state("Move")
 
