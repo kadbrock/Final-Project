@@ -7,6 +7,7 @@ func _ready():
 	yield(enemy, "ready")
 
 func start():
+	print("die")
 	enemy.set_animation("Die")
 	enemy.velocity = Vector2.ZERO
 	enemy.collision_layer = 0

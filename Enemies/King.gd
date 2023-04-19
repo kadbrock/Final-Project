@@ -19,9 +19,11 @@ func _physics_process(_delta):
 	if velocity.x < 0 and not $AnimatedSprite.flip_h: 
 		$AnimatedSprite.flip_h = true
 		direction = -1
+		print("bruh")
 		$Attack.cast_to.x = -1*abs($Attack.cast_to.x)
 	if velocity.x > 0 and $AnimatedSprite.flip_h: 
 		$AnimatedSprite.flip_h = false
+		print("bruh")
 		direction = 1
 		$Attack.cast_to.x = abs($Attack.cast_to.x)
 	if $AnimatedSprite.animation == "Attack": $AnimatedSprite.offset.x = 7*direction
@@ -34,6 +36,7 @@ func set_animation(anim):
 
 func damage():
 	if SM.state_name != "Die":
+		print("die")
 		SM.set_state("Die")
 
 
@@ -57,4 +60,5 @@ func _on_AnimatedSprite_animation_finished():
 func _on_Above_and_Below_body_entered(body):
 	if body.name == "Player" and SM.state_name != "Die":
 		body.die()
+		print("die")
 		

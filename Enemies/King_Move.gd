@@ -8,6 +8,7 @@ func _ready():
 
 func start():
 	enemy.set_animation("Move")
+	print("i am here!")
 
 func physics_process(_delta):
 	if enemy.should_attack():
