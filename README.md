@@ -44,11 +44,11 @@ It was surprising how hard to was to merge certain projects together, especially
 ## Future Development
 None
 # Created by: Fallen Kingdom
-Jason 
+## Jason 
 - Level Design + re-Sprite
-Kadence 
+## Kadence 
 - Main Menu, pause, general fixes, implementation fixes, music, sprites
-Taylor
+## Taylor
 - Player, Portals, and King engine
-Noah 
+## Noah 
 - Sound effects, music and readme
