@@ -25,4 +25,3 @@ func physics_process(_delta):
 	else:
 		player.velocity.x = 0
 		SM.set_state("Jumping")
-		
