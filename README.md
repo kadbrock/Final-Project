@@ -54,3 +54,7 @@ None
 - Player, Portals, and King engine
 ## Noah 
 - Sound effects, music and readme
+# Gameplay
+https://user-images.githubusercontent.com/122424782/233498301-dbae9e85-7a3a-4058-af29-b3a7ae3400b0.mp4
+
+
