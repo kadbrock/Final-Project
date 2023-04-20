@@ -330,6 +330,7 @@ tile_data = PoolIntArray( 0, 9, 0, 4, 8, 0, 6, 10, 0, 12, 2, 0, 65536, 0, 0, 655
 position = Vector2( 959.75, 102 )
 scale = Vector2( 3.5, 3.3 )
 frames = SubResource( 17 )
+frame = 1
 playing = true
 
 [node name="Label" type="Label" parent="."]
@@ -340,7 +341,7 @@ margin_top = 73.0
 margin_right = 956.0
 margin_bottom = 665.0
 theme = ExtResource( 2 )
-text = "Title"
+text = "CastleRuins"
 align = 1
 valign = 1
 autowrap = true
