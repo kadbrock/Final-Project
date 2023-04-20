@@ -14,9 +14,10 @@ It was surprising how hard to was to merge certain projects together, especially
 # Implementation
 ## Features
 - Sidescroller with 3 direction movement with the AWD
-- SwordAttack with left click
+- Sword Attack with left click
 - Portals to send you back in time to kill evil king
-- Evil king runs at you and attacks you just respawn if you die 
+- Evil king runs at you and attacks you
+- respawn if you die 
 - Main Menu and Pause menu screens with options to quit and or play and keep playing
 - Victory Screen 
 - 4 different levels with different tilemap setups
