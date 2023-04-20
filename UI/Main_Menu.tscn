@@ -329,7 +329,6 @@ tile_data = PoolIntArray( 0, 9, 0, 4, 8, 0, 6, 10, 0, 12, 2, 0, 65536, 0, 0, 655
 position = Vector2( 959.75, 102 )
 scale = Vector2( 3.5, 3.3 )
 frames = SubResource( 17 )
-frame = 4
 playing = true
 
 [node name="Label" type="Label" parent="."]
