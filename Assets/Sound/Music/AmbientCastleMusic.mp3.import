@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/AmbientCastleMusic.mp3-629c1a0fe7a18e20753342b44a8866de.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sound/Music/AmbientCastleMusic.mp3"
+dest_files=[ "res://.import/AmbientCastleMusic.mp3-629c1a0fe7a18e20753342b44a8866de.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,4 +1,4 @@
-[gd_scene load_steps=62 format=2]
+[gd_scene load_steps=63 format=2]
 
 [ext_resource path="res://Assets/Sprites/Attack1.png" type="Texture" id=1]
 [ext_resource path="res://Assets/Sprites/Run.png" type="Texture" id=2]
@@ -11,6 +11,7 @@
 [ext_resource path="res://Assets/Sprites/Death.png" type="Texture" id=9]
 [ext_resource path="res://Assets/Sprites/Attack3.png" type="Texture" id=10]
 [ext_resource path="res://Assets/Sprites/Attack2.png" type="Texture" id=11]
+[ext_resource path="res://Assets/Sound/Sound_Effects/LoseSound2.wav" type="AudioStream" id=12]
 
 [sub_resource type="AtlasTexture" id=107]
 flags = 4
@@ -287,7 +288,7 @@ position = Vector2( 0, -60 )
 scale = Vector2( 2.8, 2.8 )
 frames = SubResource( 106 )
 animation = "Idle"
-frame = 1
+frame = 6
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -314,6 +315,10 @@ script = ExtResource( 7 )
 
 [node name="Die" type="Node" parent="StateMachine"]
 script = ExtResource( 6 )
+
+[node name="Die" type="AudioStreamPlayer" parent="StateMachine/Die"]
+stream = ExtResource( 12 )
+volume_db = -10.0
 
 [node name="Above_and_Below" type="Area2D" parent="."]
 
