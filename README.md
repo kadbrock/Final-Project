@@ -41,6 +41,7 @@ It was surprising how hard to was to merge certain projects together, especially
 - https://www.youtube.com/watch?v=vyg5jJrZ42s
 - https://youtu.be/FuIn_1aK7rM
 - https://luizmelo.itch.io/medieval-warrior-pack-3
+- Past MSCH Lessons
 ## Future Development
 None
 # Created by: Fallen Kingdom
