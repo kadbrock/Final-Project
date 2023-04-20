@@ -550,7 +550,7 @@ animations = [ {
 3/shapes = [  ]
 3/z_index = 0
 
-[node name="Level_4" type="Node2D"]
+[node name="Game" type="Node2D"]
 
 [node name="Sprite4" type="Sprite" parent="."]
 position = Vector2( 1958.69, 331.688 )
@@ -793,20 +793,20 @@ tile_data = PoolIntArray( -1, 1, 0, -65536, 1, 0, -65535, 1, 0, -65534, 1, 0, -6
 position = Vector2( 173, 144 )
 scale = Vector2( 4, 4 )
 frames = SubResource( 13 )
-frame = 4
+frame = 3
 playing = true
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="AnimatedSprite"]
 position = Vector2( 279.25, 0 )
 frames = SubResource( 13 )
-frame = 4
+frame = 3
 playing = true
 
 [node name="AnimatedSprite3" type="AnimatedSprite" parent="AnimatedSprite"]
 position = Vector2( 622.75, 5.5 )
 scale = Vector2( 1.25, 1.25 )
 frames = SubResource( 13 )
-frame = 4
+frame = 3
 playing = true
 
 [node name="Light2D" type="Light2D" parent="."]
