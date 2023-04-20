@@ -3,7 +3,7 @@ extends Camera2D
 var player = null
 
 func _ready():
-	Global.death_zone = limit_bottom + 200
+	Global.death_zone = limit_bottom + 800
 
 func _process(_delta):
 	player = get_node_or_null("/root/Game/Player_Container/Player")
