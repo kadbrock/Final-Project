@@ -1726,7 +1726,30 @@ tile_set = SubResource( 4 )
 collision_layer = 0
 collision_mask = 0
 format = 1
+
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 1945, 264 )
+scale = Vector2( 3, 3 )
+frames = SubResource( 22 )
+frame = 1
+playing = true
+
+[node name="AnimatedSprite2" type="AnimatedSprite" parent="."]
+position = Vector2( 793, 262 )
+scale = Vector2( 3, 3 )
+frames = SubResource( 22 )
+playing = true
+
+[node name="AnimatedSprite3" type="AnimatedSprite" parent="."]
+position = Vector2( 3102, 256 )
+scale = Vector2( 3, 3 )
+frames = SubResource( 22 )
+frame = 4
+playing = true
+
 tile_data = PoolIntArray( 131075, 20, 0 )
+
 
 [node name="Bottom_Pillar" type="TileMap" parent="."]
 position = Vector2( 124, 2 )
