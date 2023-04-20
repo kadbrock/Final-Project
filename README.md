@@ -11,8 +11,8 @@ Use A and D to move left and right, W to jump, and left click to attack!
 ## Impediments
 It was surprising how hard to was to merge certain projects together, especially levels and different code. However, in the end, most of production went smoothly past the first 24 hours. 
 
-## Implementation
-Features
+# Implementation
+## Features
 - Sidescroller with 3 direction movement with the AWD
 - SwordAttack with left click
 - Portals to send you back in time to kill evil king
@@ -21,7 +21,7 @@ Features
 - Victory Screen 
 - 4 different levels with different tilemap setups
 - Music and sound effects for Jumping, swinging your sword, evil king death, entering new level, victory screen and title screen.
-Assets, or resources used
+## Assets, or resources used
 - https://cdn.discordapp.com/attachments/1098009494564376579/1098123276955426836/JumpSound.wav
 - https://cdn.discordapp.com/attachments/1098009494564376579/1098127169135312937/BladeWooshSound1.wav
 - https://cdn.discordapp.com/attachments/1098009494564376579/1098127169558941746/BladeEnemyHitSound1.wav
